@@ -1,0 +1,209 @@
+:root{
+    --Soft-red:hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+   --cyan-dark: hsl(167, 40%, 24%);
+ --Dark-blue : hsl(198, 62%, 26%);
+ --moderate-cyan : hsl(168, 34%, 41%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+}
+header{
+    background-image: url("./images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-size: cover;
+    min-height: 90vh;
+    color:#fff
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 40px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav ul li {
+    text-decoration: none;
+    margin: 0 15px;
+    list-style: none;
+    
+}
+nav ul li a {
+    text-decoration: none ;
+    color :#fff
+}
+.brand{
+  font-weight: bolder;  
+  font-size: 30px;
+  
+}
+header h1 {
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 60px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section div {
+    width:50%;
+    height:68vh;
+}
+section div h1 {
+    font-family: 'Fraunces', serif;
+text-align: start;
+font-weight: 900;
+font-size: 30px;
+}
+section div div {
+    padding: 50px ;
+    width: 100%;
+}
+section div div p{
+    margin: 40px 0 40px 0;
+}
+section div:nth-child(2){
+ 
+    background-image: url("./images/desktop/image-transform.jpg");
+    background-position: center;
+}
+section div:nth-child(3){
+ 
+    background-image: url("./images/desktop/image-stand-out.jpg");
+    background-position: center;
+}
+section div:nth-child(5){
+ 
+    background-image: url("./images/desktop/image-graphic-design.jpg");
+    background-position: center;
+    background-position-y:0;
+}
+section div:nth-child(6){
+ 
+    background-image: url("./images/desktop/image-photography.jpg");
+    background-position: center;
+    background-position-y:0;
+}
+.Graphic {
+position: relative;
+}
+.Graphic div {
+ width: auto;
+ padding: 0;
+ height: 30%;
+ position: absolute;
+ bottom: 0;
+}
+.Graphic div h1{
+    text-align: center;
+}
+.Graphic div p{
+    text-align: start;
+    padding: 0 20px 0px 20px;
+    margin-top: 10px;
+}
+.Photography {
+position: relative;
+}
+.Photography div {
+ width: auto;
+ padding: 0;
+ height: 30%;
+ position: absolute;
+ bottom: 0;
+}
+.Photography div h1{
+    text-align: center;
+}
+.Photography div p{
+    text-align: start;
+    padding: 0 20px 0px 20px;
+    margin-top: 10px;
+}
+.clients-container{
+    padding: 10px 50px 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.client-card{
+   margin: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.client-card img{
+   width: 70px;
+   height: 70px;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.client-card p{
+    margin-bottom: 20px;
+}
+.client-card .client-signature{
+    margin: auto;
+    text-align: center;
+}
+.clients-section h1 {
+    margin: 50px auto 40px auto;
+    text-align: center;
+    color:gray ;
+}
+.pic-sections{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+ 
+}
+.pic-sections div{
+    width:25%;
+    background-position: center;
+    background-size: cover;
+}
+.pic-sections div:nth-child(1){
+   
+    border: 2px red solid;
+    background-image: url('./images/desktop/image-gallery-milkbottles.jpg');
+}
+.pic-sections div:nth-child(2){
+    background-image: url('./images/desktop/image-gallery-orange.jpg');
+}
+.pic-sections div:nth-child(3){
+    background-image: url('./images/desktop/image-gallery-cone.jpg');
+}
+.pic-sections div:nth-child(4){
+    background-image: url('./images/desktop/image-gallery-sugarcubes.jpg');
+}
+.footer{
+    background-color:var(--moderate-cyan) ;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer h1 {
+    letter-spacing: 3px;
+    margin-bottom: 70px;
+    color: var(--cyan-dark);
+}
+.footer .icons-wrapper{
+    display: flex;
+    justify-content: space-around;
+    
+}
