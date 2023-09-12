@@ -205,5 +205,31 @@ position: relative;
 .footer .icons-wrapper{
     display: flex;
     justify-content: space-around;
-    
+
+}
+@media (max-width:768px){
+    section div {
+        width:100%;}
+        .pic-sections div{
+            width: 100%;
+            background-position: center;
+            
+            
+        }
+        .pic-sections{
+            flex-wrap: wrap;
+            height: 200vh;
+        }
+        .clients-container .client-card {
+        width:80%;}
+        .pic-sections div{
+            width: 100%;
+            background-position: center;
+            
+            
+        }
+        .clients-container{
+            flex-wrap: wrap;
+            height: 200vh;
+        }
 }
